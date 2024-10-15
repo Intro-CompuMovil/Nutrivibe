@@ -1,0 +1,79 @@
+{
+  "alimentos": [
+    {
+      "nombre": "Aguacate",
+      "foto": "images/aguacate.png",
+      "descripcion": "El aguacate es rico en grasas saludables, especialmente ácidos grasos monoinsaturados. Es una fuente excelente de potasio, fibra y vitaminas como la E y el K. Aporta aproximadamente 160 kcal por cada 100g."
+    },
+    {
+      "nombre": "Arroz",
+      "foto": "images/arroz.png",
+      "descripcion": "El arroz es un carbohidrato complejo que proporciona energía sostenida. Es una buena fuente de vitaminas del complejo B y puede ser parte de una dieta balanceada. Aporta alrededor de 130 kcal por cada 100g."
+    },
+    {
+      "nombre": "Avena",
+      "foto": "images/avena.png",
+      "descripcion": "La avena es rica en fibra soluble, que ayuda a reducir el colesterol y mejorar la digestión. También contiene proteínas, vitaminas y minerales. Aporta alrededor de 389 kcal por cada 100g."
+    },
+    {
+      "nombre": "Café",
+      "foto": "images/cafe.png",
+      "descripcion": "El café es una fuente rica de antioxidantes y cafeína, que mejora el estado de alerta y la concentración. Su consumo moderado puede tener beneficios para la salud. Aporta 0 kcal si no se le agrega azúcar o leche."
+    },
+    {
+      "nombre": "Champiñones",
+      "foto": "images/champiniones.png",
+      "descripcion": "Los champiñones son bajos en calorías y ricos en antioxidantes, vitaminas como la D y minerales como el selenio. Tienen propiedades inmunoestimulantes y antiinflamatorias. Aportan alrededor de 22 kcal por cada 100g."
+    },
+    {
+      "nombre": "Frijoles",
+      "foto": "images/frijoles.png",
+      "descripcion": "Los frijoles son una excelente fuente de proteína vegetal, fibra, hierro y vitaminas del complejo B. Ayudan a regular los niveles de azúcar en la sangre y son buenos para la salud digestiva. Aportan alrededor de 347 kcal por cada 100g."
+    },
+    {
+      "nombre": "Frutas",
+      "foto": "images/frutas.png",
+      "descripcion": "Las frutas son ricas en vitaminas, minerales, antioxidantes y fibra. Son esenciales para una dieta balanceada y ofrecen múltiples beneficios para la salud, dependiendo del tipo de fruta. Aportan entre 30 y 90 kcal por cada 100g, dependiendo de la fruta."
+    },
+    {
+      "nombre": "Huevos",
+      "foto": "images/huevos.png",
+      "descripcion": "Los huevos son una excelente fuente de proteínas de alta calidad, además de contener vitaminas B12, D, y minerales como el selenio. Aportan alrededor de 155 kcal por cada 100g (aproximadamente 2 huevos medianos)."
+    },
+    {
+      "nombre": "Lentejas",
+      "foto": "images/lenteja.png",
+      "descripcion": "Las lentejas son una fuente rica de proteínas vegetales, hierro y fibra. Son bajas en grasas y ayudan a regular los niveles de azúcar en la sangre. Aportan aproximadamente 116 kcal por cada 100g cocidas."
+    },
+    {
+      "nombre": "Naranja",
+      "foto": "images/naranja.png",
+      "descripcion": "La naranja es una fruta cítrica rica en vitamina C, que refuerza el sistema inmunológico y mejora la absorción de hierro. También es una buena fuente de fibra. Aporta alrededor de 47 kcal por cada 100g."
+    },
+    {
+      "nombre": "Pescado",
+      "foto": "images/pescado.png",
+      "descripcion": "El pescado es una excelente fuente de proteínas de alta calidad y ácidos grasos omega-3, beneficiosos para la salud del corazón. Aporta alrededor de 206 kcal por cada 100g, dependiendo del tipo de pescado."
+    },
+    {
+      "nombre": "Pollo",
+      "foto": "images/pollo.png",
+      "descripcion": "El pollo es una fuente magra de proteínas y contiene vitaminas como la B6 y B3. Es bajo en grasas, especialmente si se consume sin piel. Aporta alrededor de 165 kcal por cada 100g."
+    },
+    {
+      "nombre": "Queso",
+      "foto": "images/queso.png",
+      "descripcion": "El queso es una buena fuente de proteínas y calcio, aunque también puede ser alto en grasas saturadas, por lo que debe consumirse con moderación. Aporta aproximadamente 402 kcal por cada 100g."
+    },
+    {
+      "nombre": "Quinua",
+      "foto": "images/quinua.png",
+      "descripcion": "La quinua es una fuente completa de proteínas, rica en fibra, hierro y magnesio. Es ideal para dietas vegetarianas y sin gluten. Aporta alrededor de 120 kcal por cada 100g cocida."
+    },
+    {
+      "nombre": "Yogur",
+      "foto": "images/yogur.png",
+      "descripcion": "El yogur es rico en proteínas, calcio y probióticos, que son beneficiosos para la salud intestinal. Aporta alrededor de 59 kcal por cada 100g si es bajo en grasa y sin azúcar añadida."
+    }
+  ]
+}
