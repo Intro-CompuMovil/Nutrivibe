@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/calendarioFragment"
+        android:icon="@drawable/calendarioicono"
+        android:title="___"/>
+    <item
+        android:id="@+id/detalleAlimentoFragment"
+        android:icon="@drawable/iconodetallealimento"
+        android:title="___"/>
+    <item
+        android:id="@+id/camaraFragment"
+        android:icon="@drawable/camaraicono"
+        android:title="___" />
+    <item
+        android:id="@+id/ubicacionFragment"
+        android:icon="@drawable/localizacionicono"
+        android:title="___" />
+    <item
+        android:id="@+id/perfilFragment"
+        android:icon="@drawable/usuarioicono"
+        android:title="___" />
+</menu>

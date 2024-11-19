@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="verde">#51C43D</color>
+    <color name="naranja">#F29086</color>
+    <color name="gris">#5B5B5B</color>
+    <color name="grisclaro">#E4E7EB</color>
+    <color name="naranjavivo">#FF9900</color>
+    <color name="overlayBackground">#80000000</color> <!-- Fondo semi-transparente negro -->
+    <color name="green">#4CAF50</color>
+    <color name="red">#FF0000</color>
+</resources>

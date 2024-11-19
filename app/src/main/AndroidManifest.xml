@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <!-- Permisos de cámara -->
+    <uses-permission android:name="android.permission.CAMERA" /> <!-- Permisos de ubicación -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- Declarar el uso de la cámara como opcional -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" /> <!-- Declarar el uso del GPS como opcional -->
+    <uses-feature
+        android:name="android.hardware.location.gps"
+        android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_logonutrivibe"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_logonutrivibe_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Proyecto"
+        tools:targetApi="31">
+        <activity
+            android:name=".DetallesMisAlimentosGeneral"
+            android:exported="false" />
+        <activity
+            android:name=".ExtrasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UbicacionAlimentoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TutorialWebViewActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:exported="false" />
+        <activity
+            android:name=".DetallePlatoGeneral"
+            android:exported="false" />
+        <activity
+            android:name=".AlimentosFragment"
+            android:exported="false" />
+        <activity
+            android:name=".DetalleAlimentoGeneral"
+            android:exported="false" />
+        <activity
+            android:name=".DetalleAlimentoAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".DetallesCamara"
+            android:exported="false" />
+        <activity
+            android:name=".AlimentosGridAdapter"
+            android:exported="false" />
+        <!--
+-<activity
+            android:name=".RecycleViewAlimentosAdapter"
+            android:exported="false" />
+        -->
+        <activity
+            android:name=".GridProducto"
+            android:exported="false" />
+        <activity
+            android:name=".AgregarAlimentos"
+            android:exported="false" />
+        <activity
+            android:name=".pantallasCuenta.InformacionInicioSesionEditar"
+            android:exported="false" />
+        <activity
+            android:name=".pantallasCuenta.InformacionPersonalEdicion"
+            android:exported="false" />
+        <activity
+            android:name=".InformacionAlimento"
+            android:exported="false" />
+        <activity
+            android:name=".registro.RegistroInicial"
+            android:exported="false" />
+        <activity
+            android:name=".registro.InicioSesion"
+            android:exported="false" />
+        <activity
+            android:name=".ReducedFunctionalityActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GpsGrantedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CameraReducedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CameraActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".preguntasRegistro.Pregunta1"
+            android:exported="false" />
+        <activity
+            android:name=".preguntasRegistro.Pregunta2"
+            android:exported="false" />
+        <activity
+            android:name=".preguntasRegistro.Pregunta4"
+            android:exported="false" />
+        <activity
+            android:name=".preguntasRegistro.Pregunta5"
+            android:exported="false" />
+        <activity
+            android:name=".preguntasRegistro.PreguntaInicial"
+            android:exported="false" />
+        <activity
+            android:name=".preguntasRegistro.Pregunta3"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Home"
+            android:exported="false" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+
+</manifest>

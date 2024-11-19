@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">NutriVibe</string>
+    <string name="channel_name">David Cuadros</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="food_image">Imagen del alimento</string>
+    <string-array name="filter_options">
+        <item>Alimentos</item>
+        <item>Platos</item>
+    </string-array>
+    <string name="mis_alimento_image">Imagen del alimento</string>
+    <string name="image_description">Image of an extra item</string>
+</resources>
